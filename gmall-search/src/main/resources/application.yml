@@ -1,0 +1,42 @@
+server:
+  port: 18086
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+  zipkin:
+    base-url: http://localhost:9411
+    discovery-client-enabled: true
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1
+  elasticsearch:
+    rest:
+      uris: http://192.168.11.130:9200
+  jackson:
+    default-property-inclusion: non_null
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    virtual-host: /tangtang
+    host: 192.168.11.130
+    username: tanglei
+    password: tanglei
+    listener:
+      simple:
+        prefetch: 1
+        concurrency: 4
+        acknowledge-mode: manual
+feign:
+  sentinel:
+    enabled: true
+logging:
+  level:
+    com.atguigu.gmall.search: debug

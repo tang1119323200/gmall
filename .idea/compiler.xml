@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gmall-item" />
+        <module name="gmall-pms" />
+        <module name="gmall-generator" />
+        <module name="gmall-sms" />
+        <module name="gmall-ums" />
+        <module name="gmall-wms" />
+        <module name="gmall-pms-interface" />
+        <module name="gmall-common" />
+        <module name="gmall-gateway" />
+        <module name="gmall-sms-interface" />
+        <module name="gmall-admin" />
+        <module name="gmall-wms-interface" />
+        <module name="gmall_index" />
+        <module name="gmall-search" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gmall" target="1.8" />
+      <module name="gmall-admin" target="1.8" />
+      <module name="gmall-common" target="1.8" />
+      <module name="gmall-gateway" target="1.8" />
+      <module name="gmall-generator" target="1.8" />
+      <module name="gmall-index" target="1.8" />
+      <module name="gmall-item" target="1.8" />
+      <module name="gmall-pms" target="1.8" />
+      <module name="gmall-pms-interface" target="1.8" />
+      <module name="gmall-search" target="1.8" />
+      <module name="gmall-sms" target="1.8" />
+      <module name="gmall-sms-interface" target="1.8" />
+      <module name="gmall-ums" target="1.8" />
+      <module name="gmall-wms" target="1.8" />
+      <module name="gmall-wms-interface" target="1.8" />
+      <module name="gmall_index" target="1.8" />
+      <module name="search-demo" target="1.8" />
+      <module name="searchdemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmall-admin" options="-parameters" />
+      <module name="gmall-common" options="-parameters" />
+      <module name="gmall-gateway" options="-parameters" />
+      <module name="gmall-generator" options="-parameters" />
+      <module name="gmall-index" options="-parameters" />
+      <module name="gmall-item" options="-parameters" />
+      <module name="gmall-pms" options="-parameters" />
+      <module name="gmall-pms-interface" options="-parameters" />
+      <module name="gmall-search" options="-parameters" />
+      <module name="gmall-sms" options="-parameters" />
+      <module name="gmall-sms-interface" options="-parameters" />
+      <module name="gmall-ums" options="-parameters" />
+      <module name="gmall-wms" options="-parameters" />
+      <module name="gmall-wms-interface" options="-parameters" />
+      <module name="gmall_index" options="-parameters" />
+      <module name="searchdemo" options="-parameters" />
+    </option>
+  </component>
+</project>

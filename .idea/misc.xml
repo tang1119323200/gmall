@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-pms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-ums/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-wms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-search/pom.xml" />
+        <option value="$PROJECT_DIR$/search-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-pms-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-wms-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-sms-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/index-service/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-index/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall_index/pom.xml" />
+        <option value="$PROJECT_DIR$/gmall-item/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/gmall-index/pom.xml" />
+        <option value="$PROJECT_DIR$/search-demo/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>
